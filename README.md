@@ -1,4 +1,40 @@
-# Auto-Suggestion
-A Project in C-Language for the practice and learning purposes. 
-The following Program sis designed to show how a auto suggestion system in any software.
-The program contains 1 Main C-file ( reading.c ), 1 Data file ( vocabulary.csv ) and 3 header files ( readcsv.h, operation.h, linkedlist.h ).
+# Auto-Suggestion System
+
+## Overview
+This project implements an auto-suggestion system using C, utilizing linked lists and CSV file processing. It provides suggestions based on a vocabulary dataset.
+
+## Features
+- Reads vocabulary from a CSV file
+- Implements a linked list for efficient searching
+- Provides word suggestions dynamically
+
+## File Structure
+- **reading.c**: Main program logic
+- **vocabulary.csv**: Contains words for suggestions
+- **linkedlist.h**: Defines linked list structure and functions
+- **operation.h**: Contains core operational functions
+- **readcsv.h**: Handles reading CSV files
+
+## Installation & Usage
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/katoki/auto-suggestion.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd auto-suggestion
+   ```
+3. Compile the program:
+   ```sh
+   gcc reading.c -o auto_suggest
+   ```
+4. Run the executable:
+   ```sh
+   ./auto_suggest
+   ```
+
+## Contributing
+Feel free to fork this repository and submit pull requests for improvements.
+
+
+
