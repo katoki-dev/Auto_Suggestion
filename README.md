@@ -20,15 +20,11 @@ This project implements an auto-suggestion system using C, utilizing linked list
    ```sh
    git clone https://github.com/katoki-dev/auto-suggestion.git
    ```
-2. Navigate to the project directory:
-   ```sh
-   cd auto-suggestion
-   ```
-3. Compile the program:
+2. Compile the program:
    ```sh
    gcc reading.c -o auto_suggest
    ```
-4. Run the executable:
+3. Run the executable:
    ```sh
    ./auto_suggest
    ```
