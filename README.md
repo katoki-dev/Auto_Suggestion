@@ -19,6 +19,7 @@ This project implements an auto-suggestion system using C, utilizing linked list
 1. Clone this repository:
    ```sh
    git clone https://github.com/katoki-dev/auto-suggestion.git
+   cd auto-suggestion
    ```
 2. Compile the program:
    ```sh
